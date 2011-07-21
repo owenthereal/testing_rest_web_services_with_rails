@@ -11,3 +11,7 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+require 'minitest/autorun'
+require 'rest_test_helper'
+MiniTest::Unit.runner = RestTestHelper::Runner.new

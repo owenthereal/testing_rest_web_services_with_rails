@@ -43,7 +43,8 @@ Server::Application.configure do
     end
 
     require 'drb'
-    DRb.start_service("druby://127.0.0.1:61677", ActiveRecord::Base)
+    DRb.start_service("druby://owens-imac.best.adinternal.com:61191", ActiveRecord::Base)
+    puts DRb.uri
   end
 end
 

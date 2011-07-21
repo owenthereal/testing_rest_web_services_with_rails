@@ -1,1 +1,1 @@
-rvm use 1.9.2@testing_rest_web_services
+rvm use 1.9.2@testing_rest_web_services_with_rails
